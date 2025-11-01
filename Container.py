@@ -14,6 +14,7 @@ if TYPE_CHECKING:
 
 class MetroidPrimeContainer(APPlayerContainer):
     game: str = "Metroid Prime"  # type: ignore
+    patch_file_ending: str = ".apmp1"
 
     def __init__(
         self,
@@ -336,3 +337,4 @@ def construct_progressive_beam_patch(
         b("early_return_beam"),
     ]
     return instructions
+
