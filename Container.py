@@ -337,4 +337,3 @@ def construct_progressive_beam_patch(
         b("early_return_beam"),
     ]
     return instructions
-
